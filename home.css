@@ -1,0 +1,58 @@
+/* 
+#0D0D0D preto acizentado
+#D9851E ouro marron
+#F2C53D ouro
+#F2EB80 amarelo
+#010D00 preto
+*/
+/*  */
+
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background:#0D0D0D;
+    display: flex;
+  }
+
+  .contain{
+    color: #D9851E;
+    width: 100%;
+    height: 100%;
+  }
+
+  a{
+    text-decoration: none;
+    color: #D9851E;
+  }
+
+  a:hover{
+    color:#F2EB80;
+  }
+
+  li {
+    list-style-type: none;
+  }
+
+.header{
+  display: grid;
+  grid-auto-flow: column;
+}
+
+
+.menu {
+  display: none; 
+}
+
+.menu.visible {
+  display: block;
+  position: fixed;
+}
+
+.menu-button i {
+  font-size: 24px; 
+  color: white; 
+}
+
+  
+
