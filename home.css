@@ -21,6 +21,10 @@ body {
     height: 100%;
   }
 
+  h2{
+    color: #F2C53D;
+  }
+
   a{
     text-decoration: none;
     color: #D9851E;
@@ -46,12 +50,13 @@ body {
 
 .menu.visible {
   display: block;
-  position: fixed;
+  
 }
 
 .menu-button i {
   font-size: 24px; 
-  color: white; 
+  background-color: #010D00; 
+  color: #F2EB80;
 }
 
   
